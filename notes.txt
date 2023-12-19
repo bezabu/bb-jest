@@ -1,0 +1,54 @@
+button.text.js
+
+const { TestScheduler } = require('jest');
+const buttonClick = require("../button");
+/*
+beforeEach(() => {
+    let fs = require("fs");
+    let fileContents = fs.readFileSync("index.html", "utf-8");
+    document.open();
+    document.write(fileContents);
+    document.close();
+});
+*/
+/*
+describe("DOM tests", () => {
+    test("Expects p content to change", () => {
+        buttonClick();
+        expect(document.getElementById("par").innerHTML).toEqual("You Clicked");
+    });
+    test("H1 should exist", () => {
+
+        expect(document.getElementsByTagName("h1").length).toBe(1);
+    });
+});
+*/
+
+calc.test.js
+
+/**
+ * @jest-environment jsdom
+ */
+/*
+const addition = require("../calc");
+
+describe("Calculator", () => {
+    describe("Addition function", () => {
+        test("should return 42 for 20 + 22", () => {
+            expect(addition(20, 22)).toBe(42);
+        });
+        test("should return 73 for 42 + 31", () => {
+            expect(addition(42, 31)).toBe(73);
+        });
+    });
+    describe("Subtract function", () => {
+
+    });
+    describe("Multiply function", () => {
+
+    });
+    describe("Divide function", () => {
+
+    });
+});
+*/
